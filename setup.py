@@ -43,6 +43,7 @@ setup(name='rilipa.poi',
           # -*- Extra requirements: -*-
           'Products.Poi',
           'archetypes.schemaextender',
+          'plone.browserlayer',
       ],
       extras_require={'test': ['plone.app.testing']},
       entry_points="""

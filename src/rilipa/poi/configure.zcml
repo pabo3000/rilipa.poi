@@ -11,6 +11,11 @@
 
   <five:registerPackage package="." initialize=".initialize" />
 
+  <adapter 
+    factory=".extender.PoiTrackerExtender"
+    provides="archetypes.schemaextender.interfaces.ISchemaExtender"
+    />
+
   <genericsetup:registerProfile
       name="default"
       title="rilipa.poi"
